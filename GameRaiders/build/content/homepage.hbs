@@ -1,0 +1,13 @@
+<div class="page-header">
+  <h1>{{title}}</h1>
+</div>
+<ul class="row">
+  {{#each stage}}
+  <li class="col-sm-6 col-xs-12">
+    <figure>
+      <a href="#/stage/{{.}}"><img src="img/{{.}}-1.jpg" /></a>
+      <figcaption><a href="#/stage/{{.}}">第{{.}}关</a></figcaption>
+    </figure>
+  </li>
+  {{/each}}
+</ul>

@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AFB2CDB918D057E20068658E /* close.png in Resources */ = {isa = PBXBuildFile; fileRef = AFB2CDB818D057E20068658E /* close.png */; };
+		AFB2CDBD18D073400068658E /* 58.png in Resources */ = {isa = PBXBuildFile; fileRef = AFB2CDBC18D073400068658E /* 58.png */; };
+		AFB2CDBF18D073460068658E /* 80.png in Resources */ = {isa = PBXBuildFile; fileRef = AFB2CDBE18D073460068658E /* 80.png */; };
+		AFB2CDC118D0734C0068658E /* 120.png in Resources */ = {isa = PBXBuildFile; fileRef = AFB2CDC018D0734C0068658E /* 120.png */; };
+		AFB7209C18C96E010082E9C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFB7209B18C96E010082E9C7 /* Foundation.framework */; };
+		AFB7209E18C96E010082E9C7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFB7209D18C96E010082E9C7 /* CoreGraphics.framework */; };
+		AFB720A018C96E010082E9C7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFB7209F18C96E010082E9C7 /* UIKit.framework */; };
+		AFB720A618C96E010082E9C7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AFB720A418C96E010082E9C7 /* InfoPlist.strings */; };
+		AFB720A818C96E010082E9C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AFB720A718C96E010082E9C7 /* main.m */; };
+		AFB720AC18C96E010082E9C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AFB720AB18C96E010082E9C7 /* AppDelegate.m */; };
+		AFB720AF18C96E010082E9C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFB720AD18C96E010082E9C7 /* Main.storyboard */; };
+		AFB720B218C96E010082E9C7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFB720B118C96E010082E9C7 /* ViewController.m */; };
+		AFB720B418C96E010082E9C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFB720B318C96E010082E9C7 /* Images.xcassets */; };
+		AFB720BB18C96E010082E9C7 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFB720BA18C96E010082E9C7 /* XCTest.framework */; };
+		AFB720BC18C96E010082E9C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFB7209B18C96E010082E9C7 /* Foundation.framework */; };
+		AFB720BD18C96E010082E9C7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFB7209F18C96E010082E9C7 /* UIKit.framework */; };
+		AFB720C518C96E010082E9C7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AFB720C318C96E010082E9C7 /* InfoPlist.strings */; };
+		AFB720C718C96E010082E9C7 /* GameRaidersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AFB720C618C96E010082E9C7 /* GameRaidersTests.m */; };
+		AFB720E718C98D900082E9C7 /* ASIAuthenticationDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = AFB720D218C98D900082E9C7 /* ASIAuthenticationDialog.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		AFB720E818C98D900082E9C7 /* ASIDataCompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = AFB720D518C98D900082E9C7 /* ASIDataCompressor.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		AFB720E918C98D900082E9C7 /* ASIDataDecompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = AFB720D718C98D900082E9C7 /* ASIDataDecompressor.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		AFB720EA18C98D900082E9C7 /* ASIDownloadCache.m in Sources */ = {isa = PBXBuildFile; fileRef = AFB720D918C98D900082E9C7 /* ASIDownloadCache.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		AFB720EB18C98D900082E9C7 /* ASIFormDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = AFB720DB18C98D900082E9C7 /* ASIFormDataRequest.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		AFB720EC18C98D900082E9C7 /* ASIHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = AFB720DD18C98D900082E9C7 /* ASIHTTPRequest.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		AFB720ED18C98D900082E9C7 /* ASIInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = AFB720E118C98D900082E9C7 /* ASIInputStream.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		AFB720EE18C98D900082E9C7 /* ASINetworkQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = AFB720E318C98D900082E9C7 /* ASINetworkQueue.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		AFB720EF18C98D900082E9C7 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = AFB720E618C98D900082E9C7 /* Reachability.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		AFB720F118C9A72B0082E9C7 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFB720F018C9A72B0082E9C7 /* CFNetwork.framework */; };
+		AFB720F318C9A7650082E9C7 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFB720F218C9A7650082E9C7 /* SystemConfiguration.framework */; };
+		AFB720F518C9A7900082E9C7 /* libz.1.2.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AFB720F418C9A7900082E9C7 /* libz.1.2.5.dylib */; };
+		AFB720F718C9A7980082E9C7 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFB720F618C9A7980082E9C7 /* MobileCoreServices.framework */; };
+		AFB72C7918CD87BA0082E9C7 /* build in Resources */ = {isa = PBXBuildFile; fileRef = AFB72C7818CD87BA0082E9C7 /* build */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AFB720BE18C96E010082E9C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFB7209018C96E010082E9C7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFB7209718C96E010082E9C7;
+			remoteInfo = GameRaiders;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AFB2CDB818D057E20068658E /* close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = close.png; sourceTree = "<group>"; };
+		AFB2CDBC18D073400068658E /* 58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 58.png; sourceTree = "<group>"; };
+		AFB2CDBE18D073460068658E /* 80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 80.png; sourceTree = "<group>"; };
+		AFB2CDC018D0734C0068658E /* 120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 120.png; sourceTree = "<group>"; };
+		AFB7209818C96E010082E9C7 /* GameRaiders.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GameRaiders.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFB7209B18C96E010082E9C7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AFB7209D18C96E010082E9C7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AFB7209F18C96E010082E9C7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AFB720A318C96E010082E9C7 /* GameRaiders-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GameRaiders-Info.plist"; sourceTree = "<group>"; };
+		AFB720A518C96E010082E9C7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AFB720A718C96E010082E9C7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AFB720A918C96E010082E9C7 /* GameRaiders-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GameRaiders-Prefix.pch"; sourceTree = "<group>"; };
+		AFB720AA18C96E010082E9C7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AFB720AB18C96E010082E9C7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AFB720AE18C96E010082E9C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AFB720B018C96E010082E9C7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AFB720B118C96E010082E9C7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AFB720B318C96E010082E9C7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AFB720B918C96E010082E9C7 /* GameRaidersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GameRaidersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFB720BA18C96E010082E9C7 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		AFB720C218C96E010082E9C7 /* GameRaidersTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GameRaidersTests-Info.plist"; sourceTree = "<group>"; };
+		AFB720C418C96E010082E9C7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AFB720C618C96E010082E9C7 /* GameRaidersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameRaidersTests.m; sourceTree = "<group>"; };
+		AFB720D118C98D900082E9C7 /* ASIAuthenticationDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIAuthenticationDialog.h; sourceTree = "<group>"; };
+		AFB720D218C98D900082E9C7 /* ASIAuthenticationDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIAuthenticationDialog.m; sourceTree = "<group>"; };
+		AFB720D318C98D900082E9C7 /* ASICacheDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASICacheDelegate.h; sourceTree = "<group>"; };
+		AFB720D418C98D900082E9C7 /* ASIDataCompressor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIDataCompressor.h; sourceTree = "<group>"; };
+		AFB720D518C98D900082E9C7 /* ASIDataCompressor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIDataCompressor.m; sourceTree = "<group>"; };
+		AFB720D618C98D900082E9C7 /* ASIDataDecompressor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIDataDecompressor.h; sourceTree = "<group>"; };
+		AFB720D718C98D900082E9C7 /* ASIDataDecompressor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIDataDecompressor.m; sourceTree = "<group>"; };
+		AFB720D818C98D900082E9C7 /* ASIDownloadCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIDownloadCache.h; sourceTree = "<group>"; };
+		AFB720D918C98D900082E9C7 /* ASIDownloadCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIDownloadCache.m; sourceTree = "<group>"; };
+		AFB720DA18C98D900082E9C7 /* ASIFormDataRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIFormDataRequest.h; sourceTree = "<group>"; };
+		AFB720DB18C98D900082E9C7 /* ASIFormDataRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIFormDataRequest.m; sourceTree = "<group>"; };
+		AFB720DC18C98D900082E9C7 /* ASIHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequest.h; sourceTree = "<group>"; };
+		AFB720DD18C98D900082E9C7 /* ASIHTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIHTTPRequest.m; sourceTree = "<group>"; };
+		AFB720DE18C98D900082E9C7 /* ASIHTTPRequestConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequestConfig.h; sourceTree = "<group>"; };
+		AFB720DF18C98D900082E9C7 /* ASIHTTPRequestDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequestDelegate.h; sourceTree = "<group>"; };
+		AFB720E018C98D900082E9C7 /* ASIInputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIInputStream.h; sourceTree = "<group>"; };
+		AFB720E118C98D900082E9C7 /* ASIInputStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIInputStream.m; sourceTree = "<group>"; };
+		AFB720E218C98D900082E9C7 /* ASINetworkQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASINetworkQueue.h; sourceTree = "<group>"; };
+		AFB720E318C98D900082E9C7 /* ASINetworkQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASINetworkQueue.m; sourceTree = "<group>"; };
+		AFB720E418C98D900082E9C7 /* ASIProgressDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIProgressDelegate.h; sourceTree = "<group>"; };
+		AFB720E518C98D900082E9C7 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		AFB720E618C98D900082E9C7 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		AFB720F018C9A72B0082E9C7 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		AFB720F218C9A7650082E9C7 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		AFB720F418C9A7900082E9C7 /* libz.1.2.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.5.dylib; path = usr/lib/libz.1.2.5.dylib; sourceTree = SDKROOT; };
+		AFB720F618C9A7980082E9C7 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		AFB72C7818CD87BA0082E9C7 /* build */ = {isa = PBXFileReference; lastKnownFileType = folder; path = build; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AFB7209518C96E010082E9C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFB720F718C9A7980082E9C7 /* MobileCoreServices.framework in Frameworks */,
+				AFB720F518C9A7900082E9C7 /* libz.1.2.5.dylib in Frameworks */,
+				AFB720F318C9A7650082E9C7 /* SystemConfiguration.framework in Frameworks */,
+				AFB720F118C9A72B0082E9C7 /* CFNetwork.framework in Frameworks */,
+				AFB7209E18C96E010082E9C7 /* CoreGraphics.framework in Frameworks */,
+				AFB720A018C96E010082E9C7 /* UIKit.framework in Frameworks */,
+				AFB7209C18C96E010082E9C7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFB720B618C96E010082E9C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFB720BB18C96E010082E9C7 /* XCTest.framework in Frameworks */,
+				AFB720BD18C96E010082E9C7 /* UIKit.framework in Frameworks */,
+				AFB720BC18C96E010082E9C7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AFB7208F18C96E010082E9C7 = {
+			isa = PBXGroup;
+			children = (
+				AFB720A118C96E010082E9C7 /* GameRaiders */,
+				AFB720C018C96E010082E9C7 /* GameRaidersTests */,
+				AFB7209A18C96E010082E9C7 /* Frameworks */,
+				AFB7209918C96E010082E9C7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AFB7209918C96E010082E9C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AFB7209818C96E010082E9C7 /* GameRaiders.app */,
+				AFB720B918C96E010082E9C7 /* GameRaidersTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AFB7209A18C96E010082E9C7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AFB720F618C9A7980082E9C7 /* MobileCoreServices.framework */,
+				AFB720F418C9A7900082E9C7 /* libz.1.2.5.dylib */,
+				AFB720F218C9A7650082E9C7 /* SystemConfiguration.framework */,
+				AFB720F018C9A72B0082E9C7 /* CFNetwork.framework */,
+				AFB7209B18C96E010082E9C7 /* Foundation.framework */,
+				AFB7209D18C96E010082E9C7 /* CoreGraphics.framework */,
+				AFB7209F18C96E010082E9C7 /* UIKit.framework */,
+				AFB720BA18C96E010082E9C7 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AFB720A118C96E010082E9C7 /* GameRaiders */ = {
+			isa = PBXGroup;
+			children = (
+				AFB720AA18C96E010082E9C7 /* AppDelegate.h */,
+				AFB720AB18C96E010082E9C7 /* AppDelegate.m */,
+				AFB720AD18C96E010082E9C7 /* Main.storyboard */,
+				AFB720B018C96E010082E9C7 /* ViewController.h */,
+				AFB720B118C96E010082E9C7 /* ViewController.m */,
+				AFB720B318C96E010082E9C7 /* Images.xcassets */,
+				AFB72C7818CD87BA0082E9C7 /* build */,
+				AFB720D018C98D900082E9C7 /* asiHttpRequest */,
+				AFB720A218C96E010082E9C7 /* Supporting Files */,
+			);
+			path = GameRaiders;
+			sourceTree = "<group>";
+		};
+		AFB720A218C96E010082E9C7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AFB720A318C96E010082E9C7 /* GameRaiders-Info.plist */,
+				AFB720A418C96E010082E9C7 /* InfoPlist.strings */,
+				AFB720A718C96E010082E9C7 /* main.m */,
+				AFB720A918C96E010082E9C7 /* GameRaiders-Prefix.pch */,
+				AFB2CDB818D057E20068658E /* close.png */,
+				AFB2CDBC18D073400068658E /* 58.png */,
+				AFB2CDBE18D073460068658E /* 80.png */,
+				AFB2CDC018D0734C0068658E /* 120.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AFB720C018C96E010082E9C7 /* GameRaidersTests */ = {
+			isa = PBXGroup;
+			children = (
+				AFB720C618C96E010082E9C7 /* GameRaidersTests.m */,
+				AFB720C118C96E010082E9C7 /* Supporting Files */,
+			);
+			path = GameRaidersTests;
+			sourceTree = "<group>";
+		};
+		AFB720C118C96E010082E9C7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AFB720C218C96E010082E9C7 /* GameRaidersTests-Info.plist */,
+				AFB720C318C96E010082E9C7 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AFB720D018C98D900082E9C7 /* asiHttpRequest */ = {
+			isa = PBXGroup;
+			children = (
+				AFB720D118C98D900082E9C7 /* ASIAuthenticationDialog.h */,
+				AFB720D218C98D900082E9C7 /* ASIAuthenticationDialog.m */,
+				AFB720D318C98D900082E9C7 /* ASICacheDelegate.h */,
+				AFB720D418C98D900082E9C7 /* ASIDataCompressor.h */,
+				AFB720D518C98D900082E9C7 /* ASIDataCompressor.m */,
+				AFB720D618C98D900082E9C7 /* ASIDataDecompressor.h */,
+				AFB720D718C98D900082E9C7 /* ASIDataDecompressor.m */,
+				AFB720D818C98D900082E9C7 /* ASIDownloadCache.h */,
+				AFB720D918C98D900082E9C7 /* ASIDownloadCache.m */,
+				AFB720DA18C98D900082E9C7 /* ASIFormDataRequest.h */,
+				AFB720DB18C98D900082E9C7 /* ASIFormDataRequest.m */,
+				AFB720DC18C98D900082E9C7 /* ASIHTTPRequest.h */,
+				AFB720DD18C98D900082E9C7 /* ASIHTTPRequest.m */,
+				AFB720DE18C98D900082E9C7 /* ASIHTTPRequestConfig.h */,
+				AFB720DF18C98D900082E9C7 /* ASIHTTPRequestDelegate.h */,
+				AFB720E018C98D900082E9C7 /* ASIInputStream.h */,
+				AFB720E118C98D900082E9C7 /* ASIInputStream.m */,
+				AFB720E218C98D900082E9C7 /* ASINetworkQueue.h */,
+				AFB720E318C98D900082E9C7 /* ASINetworkQueue.m */,
+				AFB720E418C98D900082E9C7 /* ASIProgressDelegate.h */,
+				AFB720E518C98D900082E9C7 /* Reachability.h */,
+				AFB720E618C98D900082E9C7 /* Reachability.m */,
+			);
+			path = asiHttpRequest;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AFB7209718C96E010082E9C7 /* GameRaiders */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFB720CA18C96E010082E9C7 /* Build configuration list for PBXNativeTarget "GameRaiders" */;
+			buildPhases = (
+				AFB7209418C96E010082E9C7 /* Sources */,
+				AFB7209518C96E010082E9C7 /* Frameworks */,
+				AFB7209618C96E010082E9C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GameRaiders;
+			productName = GameRaiders;
+			productReference = AFB7209818C96E010082E9C7 /* GameRaiders.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AFB720B818C96E010082E9C7 /* GameRaidersTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFB720CD18C96E010082E9C7 /* Build configuration list for PBXNativeTarget "GameRaidersTests" */;
+			buildPhases = (
+				AFB720B518C96E010082E9C7 /* Sources */,
+				AFB720B618C96E010082E9C7 /* Frameworks */,
+				AFB720B718C96E010082E9C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFB720BF18C96E010082E9C7 /* PBXTargetDependency */,
+			);
+			name = GameRaidersTests;
+			productName = GameRaidersTests;
+			productReference = AFB720B918C96E010082E9C7 /* GameRaidersTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AFB7209018C96E010082E9C7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = dianjoy;
+				TargetAttributes = {
+					AFB720B818C96E010082E9C7 = {
+						TestTargetID = AFB7209718C96E010082E9C7;
+					};
+				};
+			};
+			buildConfigurationList = AFB7209318C96E010082E9C7 /* Build configuration list for PBXProject "GameRaiders" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AFB7208F18C96E010082E9C7;
+			productRefGroup = AFB7209918C96E010082E9C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AFB7209718C96E010082E9C7 /* GameRaiders */,
+				AFB720B818C96E010082E9C7 /* GameRaidersTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AFB7209618C96E010082E9C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFB720B418C96E010082E9C7 /* Images.xcassets in Resources */,
+				AFB2CDBF18D073460068658E /* 80.png in Resources */,
+				AFB2CDBD18D073400068658E /* 58.png in Resources */,
+				AFB2CDC118D0734C0068658E /* 120.png in Resources */,
+				AFB72C7918CD87BA0082E9C7 /* build in Resources */,
+				AFB720A618C96E010082E9C7 /* InfoPlist.strings in Resources */,
+				AFB2CDB918D057E20068658E /* close.png in Resources */,
+				AFB720AF18C96E010082E9C7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFB720B718C96E010082E9C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFB720C518C96E010082E9C7 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AFB7209418C96E010082E9C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFB720E818C98D900082E9C7 /* ASIDataCompressor.m in Sources */,
+				AFB720B218C96E010082E9C7 /* ViewController.m in Sources */,
+				AFB720EC18C98D900082E9C7 /* ASIHTTPRequest.m in Sources */,
+				AFB720E718C98D900082E9C7 /* ASIAuthenticationDialog.m in Sources */,
+				AFB720EB18C98D900082E9C7 /* ASIFormDataRequest.m in Sources */,
+				AFB720AC18C96E010082E9C7 /* AppDelegate.m in Sources */,
+				AFB720ED18C98D900082E9C7 /* ASIInputStream.m in Sources */,
+				AFB720A818C96E010082E9C7 /* main.m in Sources */,
+				AFB720EE18C98D900082E9C7 /* ASINetworkQueue.m in Sources */,
+				AFB720E918C98D900082E9C7 /* ASIDataDecompressor.m in Sources */,
+				AFB720EF18C98D900082E9C7 /* Reachability.m in Sources */,
+				AFB720EA18C98D900082E9C7 /* ASIDownloadCache.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFB720B518C96E010082E9C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFB720C718C96E010082E9C7 /* GameRaidersTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AFB720BF18C96E010082E9C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AFB7209718C96E010082E9C7 /* GameRaiders */;
+			targetProxy = AFB720BE18C96E010082E9C7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AFB720A418C96E010082E9C7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFB720A518C96E010082E9C7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AFB720AD18C96E010082E9C7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFB720AE18C96E010082E9C7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AFB720C318C96E010082E9C7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFB720C418C96E010082E9C7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AFB720C818C96E010082E9C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AFB720C918C96E010082E9C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AFB720CB18C96E010082E9C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GameRaiders/GameRaiders-Prefix.pch";
+				INFOPLIST_FILE = "GameRaiders/GameRaiders-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AFB720CC18C96E010082E9C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GameRaiders/GameRaiders-Prefix.pch";
+				INFOPLIST_FILE = "GameRaiders/GameRaiders-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		AFB720CE18C96E010082E9C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GameRaiders.app/GameRaiders";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GameRaiders/GameRaiders-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "GameRaidersTests/GameRaidersTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		AFB720CF18C96E010082E9C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GameRaiders.app/GameRaiders";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GameRaiders/GameRaiders-Prefix.pch";
+				INFOPLIST_FILE = "GameRaidersTests/GameRaidersTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AFB7209318C96E010082E9C7 /* Build configuration list for PBXProject "GameRaiders" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFB720C818C96E010082E9C7 /* Debug */,
+				AFB720C918C96E010082E9C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFB720CA18C96E010082E9C7 /* Build configuration list for PBXNativeTarget "GameRaiders" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFB720CB18C96E010082E9C7 /* Debug */,
+				AFB720CC18C96E010082E9C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFB720CD18C96E010082E9C7 /* Build configuration list for PBXNativeTarget "GameRaidersTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFB720CE18C96E010082E9C7 /* Debug */,
+				AFB720CF18C96E010082E9C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AFB7209018C96E010082E9C7 /* Project object */;
+}
