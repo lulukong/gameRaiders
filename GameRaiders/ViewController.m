@@ -57,7 +57,6 @@
     NSLog(@"webViewDidFinishLoad");    //图片大小 320*568  按钮 
 }
 
-
 - (void)requestFinished:(ASIHTTPRequest *)httprequest
 {
     NSLog(@"%@",[httprequest responseString]);
@@ -69,7 +68,7 @@
         adView.backgroundColor = [UIColor blackColor];
         [self.view addSubview:adView];
         adView.backgroundColor = [UIColor blackColor];
-        adView.alpha = 0.7;
+        adView.alpha = 0.85;
         adView.opaque = NO;
         
 //        [UIView beginAnimations:@"pageCurl" context:nil];
@@ -81,7 +80,7 @@
 //        // Commit the changes and perform the animation.
 //        [UIView commitAnimations];
         
-        contentLabel = [[UILabel alloc] initWithFrame:CGRectMake(45, 380, 230, 60)];
+        contentLabel = [[UILabel alloc] initWithFrame:CGRectMake(40, 390, 240, 60)];
         adContent = [dic objectForKey:@"ad_text"];
         contentLabel.textColor  = [UIColor yellowColor];
         contentLabel.text = adContent;
@@ -92,7 +91,7 @@
         [adView addSubview:contentLabel];
         NSLog(@"======%@",contentLabel.text);
         
-        adImageView = [[UIImageView alloc] initWithFrame:CGRectMake(45, 30, 230, 350)];
+        adImageView = [[UIImageView alloc] initWithFrame:CGRectMake(45, 35, 230, 350)];
         adImage = [[UIImage alloc]initWithData:[NSData dataWithContentsOfURL:[NSURL URLWithString:[dic objectForKey:@"ad_url"]]]];
         adImageView.image = adImage;
         [adView addSubview:adImageView];
@@ -105,7 +104,7 @@
         if ([is_close isEqualToString:@"0"])
         {
             UIButton *closeBtn = [UIButton buttonWithType:UIButtonTypeCustom];
-            closeBtn.frame = CGRectMake(220, 30, 50, 50);
+            closeBtn.frame = CGRectMake(225, 30, 50, 50);
             closeBtn.backgroundColor = [UIColor clearColor];
             [closeBtn setImage:[UIImage imageNamed:@"close.png"] forState:UIControlStateNormal];
             [closeBtn addTarget:self action:@selector(closeAdView) forControlEvents:UIControlEventTouchUpInside];

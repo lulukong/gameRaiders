@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>EB68FFFB-62D8-4AE9-B695-E904713149BD</string>
+	<key>IDESourceControlProjectName</key>
+	<string>GameRaiders</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>DF26C4CF-4310-4649-9B80-A5925229B801</key>
+		<string>https://github.com/lulukong/gameRaiders.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>GameRaiders.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>DF26C4CF-4310-4649-9B80-A5925229B801</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/lulukong/gameRaiders.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>DF26C4CF-4310-4649-9B80-A5925229B801</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>DF26C4CF-4310-4649-9B80-A5925229B801</string>
+			<key>IDESourceControlWCCName</key>
+			<string>game_raiders</string>
+		</dict>
+	</array>
+</dict>
+</plist>

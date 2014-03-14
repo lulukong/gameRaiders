@@ -21,12 +21,13 @@
     {
       "size" : "512x512",
       "idiom" : "mac",
-      "filename" : "1-1.png",
+      "filename" : "icon_512.png",
       "scale" : "1x"
     },
     {
-      "idiom" : "mac",
       "size" : "512x512",
+      "idiom" : "mac",
+      "filename" : "icon_512@2x.png",
       "scale" : "2x"
     }
   ],

@@ -12,19 +12,6 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    UIImageView *splashView = [[UIImageView alloc] initWithFrame:CGRectMake(0,0, 320, 480)];
-    splashView.image = [UIImage imageNamed:@"Default.png"];
-    [self.window addSubview:splashView];
-    [self.window bringSubviewToFront:splashView];
-    [UIView beginAnimations:nil context:nil];
-    [UIView setAnimationDuration:2.0];
-    [UIView setAnimationTransition:UIViewAnimationTransitionNone forView: self.window cache:YES];
-    [UIView setAnimationDelegate:self];
-//    [UIView setAnimationDidStopSelector:@selector(startupAnimationDone:finished:context:)];
-    splashView.alpha = 0.0;
-    splashView.frame = CGRectMake(-60, -85, 440, 635);
-    [UIView commitAnimations];
-    
     // Override point for customization after application launch.
     return YES;
 }
