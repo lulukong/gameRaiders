@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AFB5DC2618D1AD4C0053AB13 /* close.png in Resources */ = {isa = PBXBuildFile; fileRef = AFB5DC2018D1AD4C0053AB13 /* close.png */; };
 		AFB5DC2718D1AD4C0053AB13 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AFB5DC2118D1AD4C0053AB13 /* Icon-Small@2x.png */; };
 		AFB5DC2818D1AD4C0053AB13 /* icon_120*120.png in Resources */ = {isa = PBXBuildFile; fileRef = AFB5DC2218D1AD4C0053AB13 /* icon_120*120.png */; };
 		AFB5DC2918D1AD4C0053AB13 /* icon_512.png in Resources */ = {isa = PBXBuildFile; fileRef = AFB5DC2318D1AD4C0053AB13 /* icon_512.png */; };
@@ -16,6 +15,7 @@
 		AFB5DC2F18D1B45C0053AB13 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AFB5DC2C18D1B45C0053AB13 /* Default-568h@2x.png */; };
 		AFB5DC3018D1B45C0053AB13 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = AFB5DC2D18D1B45C0053AB13 /* Default.png */; };
 		AFB5DC3118D1B45C0053AB13 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AFB5DC2E18D1B45C0053AB13 /* Default@2x.png */; };
+		AFB5EB5C18D6E98D00E4B1BA /* DianJoy_OpenUDID.m in Sources */ = {isa = PBXBuildFile; fileRef = AFB5EB5B18D6E98D00E4B1BA /* DianJoy_OpenUDID.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		AFB7209C18C96E010082E9C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFB7209B18C96E010082E9C7 /* Foundation.framework */; };
 		AFB7209E18C96E010082E9C7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFB7209D18C96E010082E9C7 /* CoreGraphics.framework */; };
 		AFB720A018C96E010082E9C7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFB7209F18C96E010082E9C7 /* UIKit.framework */; };
@@ -44,6 +44,8 @@
 		AFB720F518C9A7900082E9C7 /* libz.1.2.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AFB720F418C9A7900082E9C7 /* libz.1.2.5.dylib */; };
 		AFB720F718C9A7980082E9C7 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFB720F618C9A7980082E9C7 /* MobileCoreServices.framework */; };
 		AFB72C7918CD87BA0082E9C7 /* build in Resources */ = {isa = PBXBuildFile; fileRef = AFB72C7818CD87BA0082E9C7 /* build */; };
+		AFC34C0E18D8193F00AA5494 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFC34C0D18D8193F00AA5494 /* AdSupport.framework */; };
+		AFC34C1018D81EEC00AA5494 /* close.png in Resources */ = {isa = PBXBuildFile; fileRef = AFC34C0F18D81EEC00AA5494 /* close.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,7 +59,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		AFB5DC2018D1AD4C0053AB13 /* close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = close.png; sourceTree = "<group>"; };
 		AFB5DC2118D1AD4C0053AB13 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
 		AFB5DC2218D1AD4C0053AB13 /* icon_120*120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_120*120.png"; sourceTree = "<group>"; };
 		AFB5DC2318D1AD4C0053AB13 /* icon_512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_512.png; sourceTree = "<group>"; };
@@ -66,6 +67,8 @@
 		AFB5DC2C18D1B45C0053AB13 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		AFB5DC2D18D1B45C0053AB13 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		AFB5DC2E18D1B45C0053AB13 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		AFB5EB5A18D6E98D00E4B1BA /* DianJoy_OpenUDID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DianJoy_OpenUDID.h; sourceTree = "<group>"; };
+		AFB5EB5B18D6E98D00E4B1BA /* DianJoy_OpenUDID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DianJoy_OpenUDID.m; sourceTree = "<group>"; };
 		AFB7209818C96E010082E9C7 /* GameRaiders.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GameRaiders.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFB7209B18C96E010082E9C7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		AFB7209D18C96E010082E9C7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -112,6 +115,8 @@
 		AFB720F418C9A7900082E9C7 /* libz.1.2.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.5.dylib; path = usr/lib/libz.1.2.5.dylib; sourceTree = SDKROOT; };
 		AFB720F618C9A7980082E9C7 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		AFB72C7818CD87BA0082E9C7 /* build */ = {isa = PBXFileReference; lastKnownFileType = folder; path = build; sourceTree = "<group>"; };
+		AFC34C0D18D8193F00AA5494 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		AFC34C0F18D81EEC00AA5494 /* close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = close.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +124,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFC34C0E18D8193F00AA5494 /* AdSupport.framework in Frameworks */,
 				AFB720F718C9A7980082E9C7 /* MobileCoreServices.framework in Frameworks */,
 				AFB720F518C9A7900082E9C7 /* libz.1.2.5.dylib in Frameworks */,
 				AFB720F318C9A7650082E9C7 /* SystemConfiguration.framework in Frameworks */,
@@ -145,7 +151,6 @@
 		AFB5DC1F18D1AD4C0053AB13 /* image */ = {
 			isa = PBXGroup;
 			children = (
-				AFB5DC2018D1AD4C0053AB13 /* close.png */,
 				AFB5DC2118D1AD4C0053AB13 /* Icon-Small@2x.png */,
 				AFB5DC2218D1AD4C0053AB13 /* icon_120*120.png */,
 				AFB5DC2318D1AD4C0053AB13 /* icon_512.png */,
@@ -156,6 +161,15 @@
 				AFB5DC2E18D1B45C0053AB13 /* Default@2x.png */,
 			);
 			path = image;
+			sourceTree = "<group>";
+		};
+		AFB5EB5918D6E98D00E4B1BA /* openUDID */ = {
+			isa = PBXGroup;
+			children = (
+				AFB5EB5A18D6E98D00E4B1BA /* DianJoy_OpenUDID.h */,
+				AFB5EB5B18D6E98D00E4B1BA /* DianJoy_OpenUDID.m */,
+			);
+			path = openUDID;
 			sourceTree = "<group>";
 		};
 		AFB7208F18C96E010082E9C7 = {
@@ -180,6 +194,7 @@
 		AFB7209A18C96E010082E9C7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				AFC34C0D18D8193F00AA5494 /* AdSupport.framework */,
 				AFB720F618C9A7980082E9C7 /* MobileCoreServices.framework */,
 				AFB720F418C9A7900082E9C7 /* libz.1.2.5.dylib */,
 				AFB720F218C9A7650082E9C7 /* SystemConfiguration.framework */,
@@ -195,6 +210,7 @@
 		AFB720A118C96E010082E9C7 /* GameRaiders */ = {
 			isa = PBXGroup;
 			children = (
+				AFB5EB5918D6E98D00E4B1BA /* openUDID */,
 				AFB720AA18C96E010082E9C7 /* AppDelegate.h */,
 				AFB720AB18C96E010082E9C7 /* AppDelegate.m */,
 				AFB720AD18C96E010082E9C7 /* Main.storyboard */,
@@ -211,6 +227,7 @@
 		AFB720A218C96E010082E9C7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				AFC34C0F18D81EEC00AA5494 /* close.png */,
 				AFB5DC1F18D1AD4C0053AB13 /* image */,
 				AFB720A318C96E010082E9C7 /* GameRaiders-Info.plist */,
 				AFB720A418C96E010082E9C7 /* InfoPlist.strings */,
@@ -347,12 +364,12 @@
 				AFB5DC2F18D1B45C0053AB13 /* Default-568h@2x.png in Resources */,
 				AFB5DC2B18D1AD4C0053AB13 /* icon_80*80.png in Resources */,
 				AFB72C7918CD87BA0082E9C7 /* build in Resources */,
+				AFC34C1018D81EEC00AA5494 /* close.png in Resources */,
 				AFB5DC3118D1B45C0053AB13 /* Default@2x.png in Resources */,
 				AFB5DC2818D1AD4C0053AB13 /* icon_120*120.png in Resources */,
 				AFB720A618C96E010082E9C7 /* InfoPlist.strings in Resources */,
 				AFB5DC2718D1AD4C0053AB13 /* Icon-Small@2x.png in Resources */,
 				AFB5DC3018D1B45C0053AB13 /* Default.png in Resources */,
-				AFB5DC2618D1AD4C0053AB13 /* close.png in Resources */,
 				AFB720AF18C96E010082E9C7 /* Main.storyboard in Resources */,
 				AFB5DC2918D1AD4C0053AB13 /* icon_512.png in Resources */,
 				AFB5DC2A18D1AD4C0053AB13 /* icon_1024.png in Resources */,
@@ -384,6 +401,7 @@
 				AFB720A818C96E010082E9C7 /* main.m in Sources */,
 				AFB720EE18C98D900082E9C7 /* ASINetworkQueue.m in Sources */,
 				AFB720E918C98D900082E9C7 /* ASIDataDecompressor.m in Sources */,
+				AFB5EB5C18D6E98D00E4B1BA /* DianJoy_OpenUDID.m in Sources */,
 				AFB720EF18C98D900082E9C7 /* Reachability.m in Sources */,
 				AFB720EA18C98D900082E9C7 /* ASIDownloadCache.m in Sources */,
 			);

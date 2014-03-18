@@ -17,6 +17,15 @@
     UIImageView *adImageView;
     NSString *adContent;
     UILabel *contentLabel;
+    
+    NSString *deviceId;
+    NSString *osVersion;
+    NSString *model;
+    NSString *bundleStatus;
+    NSString *openUDID;
+    NSString *idfv;
+    NSString *idfa;
 }
+
 
 @end

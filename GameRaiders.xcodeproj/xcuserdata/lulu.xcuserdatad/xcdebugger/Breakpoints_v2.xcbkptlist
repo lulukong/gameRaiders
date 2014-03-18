@@ -10,13 +10,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GameRaiders/ViewController.m"
-            timestampString = "416399932.584934"
+            timestampString = "416816583.673251"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "43"
-            endingLineNumber = "43"
-            landmarkName = "@implementation ViewController"
-            landmarkType = "3">
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "-requestAd"
+            landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -42,12 +42,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GameRaiders/ViewController.m"
-            timestampString = "416399932.584934"
+            timestampString = "416816583.673251"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "123"
-            endingLineNumber = "123"
-            landmarkName = "-GotoAppstore:"
+            startingLineNumber = "138"
+            endingLineNumber = "138"
+            landmarkName = "-closeAdView"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>

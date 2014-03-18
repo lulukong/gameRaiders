@@ -8,6 +8,8 @@
 
 #import "ViewController.h"
 #import "ASIHTTPRequest.h"
+#import "DianJoy_OpenUDID.h"
+#import <AdSupport/AdSupport.h>
 
 
 @interface ViewController ()
@@ -30,6 +32,7 @@
     [self.view addSubview:webView];
     
     [NSThread detachNewThreadSelector:@selector(requestAd) toTarget:self withObject:nil];
+    [NSThread detachNewThreadSelector:@selector(message) toTarget:self withObject:nil];
 
 }
 
@@ -39,6 +42,22 @@
     ASIHTTPRequest *adRequest = [ASIHTTPRequest requestWithURL:[NSURL URLWithString:url]];
     adRequest.delegate = self;
     [adRequest startAsynchronous];
+}
+
+- (void)message
+{
+    NSDictionary *dic = [[NSBundle mainBundle] infoDictionary];
+    bundleStatus = [dic objectForKey:@"CFBundleIdentifier"];
+    osVersion = [[UIDevice currentDevice] systemVersion];
+    model = [[UIDevice currentDevice] model];
+    openUDID = [DianJoy_OpenUDID value];
+    idfv = [[[UIDevice currentDevice] identifierForVendor] UUIDString];
+    idfa = [[[ASIdentifierManager sharedManager] advertisingIdentifier] UUIDString];
+    NSString *url = [NSString stringWithFormat:@"http://c.dianjoy.com/dev/api/adxp/ad_stat_ios.php?pack_name=%@&version=%@&model=%@&udid=%@&idfv=%@&idfa=%@",bundleStatus,osVersion,model,openUDID,idfv,idfa];
+    NSLog(@"%@",url);
+    ASIHTTPRequest *request1 = [ASIHTTPRequest requestWithURL:[NSURL URLWithString:url]];
+    request1.delegate = self;
+    [request1 startAsynchronous];
 }
 
 - (void)didReceiveMemoryWarning
