@@ -18,6 +18,8 @@
 
 @implementation ViewController
 
+#define iPhone5 ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(640, 1136), [[UIScreen mainScreen] currentMode].size) : NO)
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
@@ -54,7 +56,6 @@
     idfv = [[[UIDevice currentDevice] identifierForVendor] UUIDString];
     idfa = [[[ASIdentifierManager sharedManager] advertisingIdentifier] UUIDString];
     NSString *url = [NSString stringWithFormat:@"http://c.dianjoy.com/dev/api/adxp/ad_stat_ios.php?pack_name=%@&version=%@&model=%@&udid=%@&idfv=%@&idfa=%@",bundleStatus,osVersion,model,openUDID,idfv,idfa];
-    NSLog(@"%@",url);
     ASIHTTPRequest *request1 = [ASIHTTPRequest requestWithURL:[NSURL URLWithString:url]];
     request1.delegate = self;
     [request1 startAsynchronous];
@@ -99,7 +100,15 @@
 //        // Commit the changes and perform the animation.
 //        [UIView commitAnimations];
         
-        contentLabel = [[UILabel alloc] initWithFrame:CGRectMake(40, 390, 240, 60)];
+        if (!iPhone5) {
+            adImageView = [[UIImageView alloc] initWithFrame:CGRectMake(45, 35, 230, 350)];
+            contentLabel = [[UILabel alloc] initWithFrame:CGRectMake(40, 390, 240, 60)];
+        }else
+        {
+            adImageView = [[UIImageView alloc] initWithFrame:CGRectMake(45, 65, 230, 350)];
+            contentLabel = [[UILabel alloc] initWithFrame:CGRectMake(40, 425, 240, 60)];
+        }
+        
         adContent = [dic objectForKey:@"ad_text"];
         contentLabel.textColor  = [UIColor yellowColor];
         contentLabel.text = adContent;
@@ -108,9 +117,7 @@
         contentLabel.lineBreakMode = NSLineBreakByCharWrapping;
         contentLabel.numberOfLines = 0;
         [adView addSubview:contentLabel];
-        NSLog(@"======%@",contentLabel.text);
         
-        adImageView = [[UIImageView alloc] initWithFrame:CGRectMake(45, 35, 230, 350)];
         adImage = [[UIImage alloc]initWithData:[NSData dataWithContentsOfURL:[NSURL URLWithString:[dic objectForKey:@"ad_url"]]]];
         adImageView.image = adImage;
         [adView addSubview:adImageView];
@@ -123,7 +130,12 @@
         if ([is_close isEqualToString:@"0"])
         {
             UIButton *closeBtn = [UIButton buttonWithType:UIButtonTypeCustom];
-            closeBtn.frame = CGRectMake(225, 30, 50, 50);
+            if (!iPhone5) {
+                closeBtn.frame = CGRectMake(225, 30, 50, 50);
+            }else
+            {
+                closeBtn.frame = CGRectMake(225, 60, 50, 50);
+            }
             closeBtn.backgroundColor = [UIColor clearColor];
             [closeBtn setImage:[UIImage imageNamed:@"close.png"] forState:UIControlStateNormal];
             [closeBtn addTarget:self action:@selector(closeAdView) forControlEvents:UIControlEventTouchUpInside];
